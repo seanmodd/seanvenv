@@ -1,3 +1,3 @@
 # seanvenv
-# seanvenv
-# seanvenv
+
+abstra python configuration
