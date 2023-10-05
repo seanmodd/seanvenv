@@ -8,7 +8,7 @@ import datetime
 
 # Initialize the store and request access
 store = CNContactStore.alloc().init()
-keys_to_fetch = [CNContactIdentifierKey, "modificationDate", CNContactDatesKey]
+keys_to_fetch = [CNContactIdentif       ierKey, "modificationDate", CNContactDatesKey]
 predicate = CNContact.predicateForContactsMatchingName_("Aaftetlysaumma")
 contacts, error = store.unifiedContactsMatchingPredicate_keysToFetch_error_(predicate, keys_to_fetch, None)
 
